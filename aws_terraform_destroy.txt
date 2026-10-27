@@ -16,7 +16,7 @@ Terraform will perform the following actions:
   # aws_instance.web will be destroyed
   - resource "aws_instance" "web" {
       - ami                                  = (sensitive value) -> null
-      - arn                                  = "arn:aws:ec2:ap-northeast-1:168429786184:instance/i-035b99be709b57ac2" -> null
+      - arn                                  = "arn:aws:ec2:ap-northeast-1:XXXXXXXXXXXX:instance/i-035b99be709b57ac2" -> null
       - associate_public_ip_address          = true -> null
       - availability_zone                    = "ap-northeast-1a" -> null
       - cpu_core_count                       = 1 -> null
@@ -115,7 +115,7 @@ Terraform will perform the following actions:
 
   # aws_security_group.web will be destroyed
   - resource "aws_security_group" "web" {
-      - arn                    = "arn:aws:ec2:ap-northeast-1:168429786184:security-group/sg-09a158d1cf4437e6b" -> null
+      - arn                    = "arn:aws:ec2:ap-northeast-1:XXXXXXXXXXXX:security-group/sg-09a158d1cf4437e6b" -> null
       - description            = "Allow HTTP" -> null
       - egress                 = [
           - {
@@ -149,7 +149,7 @@ Terraform will perform the following actions:
             },
         ] -> null
       - name                   = "lms-sasaki-web-sg" -> null
-      - owner_id               = "168429786184" -> null
+      - owner_id               = "XXXXXXXXXXXX" -> null
       - revoke_rules_on_delete = false -> null
       - tags                   = {
           - "course" = "aws-101"

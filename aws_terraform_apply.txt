@@ -233,7 +233,7 @@ aws_instance.web: Creating...
 aws_instance.web: Still creating... [00m10s elapsed]
 aws_instance.web: Creation complete after 13s [id=i-035b99be709b57ac2]
 ╷
-│ Error: getting S3 Bucket CORS configuration: AccessDenied: User: arn:aws:iam::168429786184:user/lms-sasaki is not authorized to perform: s3:GetBucketCORS on resource: "arn:aws:s3:::lms-sasaki-site-1" because no identity-based policy allows the s3:GetBucketCORS action
+│ Error: getting S3 Bucket CORS configuration: AccessDenied: User: arn:aws:iam::XXXXXXXXXXXX:user/lms-sasaki is not authorized to perform: s3:GetBucketCORS on resource: "arn:aws:s3:::lms-sasaki-site-1" because no identity-based policy allows the s3:GetBucketCORS action
 │       status code: 403, request id: DJDCY3F3CNP7P5YN, host id: xvD+BJBlwCg8Pz5+2F/BVBXxOLeNdEnYtZTVQwqGooAtbNtwAiryPSs90Hs+c7bLKiPZPKVu/NiFcfARIwO1Uy0yOrZ0Bz00
 │ 
 │   with aws_s3_bucket.site,
